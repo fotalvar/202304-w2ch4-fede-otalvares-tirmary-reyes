@@ -9,8 +9,9 @@ class CodersArray {
   }
 
   push(input) {
-    this[this.length] = input;
     this.length++;
+    this[this.length] = input;
+    return this.length;
   }
 }
 
